@@ -26,6 +26,8 @@
   display: inline-block;
   padding: 1rem 0rem; /*16px 0px*/
   position: relative;
+  font-family: "Poppins";
+  font-weight: 400;
 }
 
 .header-menu a:after {

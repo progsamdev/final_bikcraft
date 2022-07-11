@@ -19,23 +19,6 @@
   color: #ffbb00;
 }
 
-.introduction a {
-  display: inline-block;
-  padding: 1rem 2rem; /*16px 32px;*/
-  background: linear-gradient(180deg, #ffbb00 0%, #f2a50c 100%);
-  border-radius: 0.25rem; /*4px*/
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); /*x y blur fontsize ;*/
-  text-transform: uppercase;
-  color: #332200;
-  font-size: 1.125rem; /*18px;*/
-  line-height: 1.33;
-  font-weight: bold;
-}
-
-.introduction a:hover {
-  background: linear-gradient(#ffb60d, #e59317);
-}
-
 .introduction-content {
   align-self: end;
   padding-bottom: 12.5rem; /*200px*/
@@ -52,6 +35,8 @@
   margin-bottom: 2rem; /*32px*/
   font-size: 4rem; /*64px*/
   line-height: 1.125;
+  font-family: "Poppins";
+  font-weight: 600;
 }
 
 .introduction p {
@@ -59,6 +44,8 @@
   font-size: 1.5rem; /*24px*/
   line-height: 1.5;
   color: #b2b2b2;
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
 @media (max-width: 1200px) {
@@ -93,12 +80,5 @@
 
   .introduction-content {
     padding-bottom: 0px;
-  }
-
-  .introduction a {
-    padding: 0.75rem 1rem; /*12px 16px;*/
-    font-size: 1rem;
-    line-height: 1.33;
-    font-weight: bold;
   }
 }
