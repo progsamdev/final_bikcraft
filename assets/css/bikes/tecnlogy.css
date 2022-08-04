@@ -1,0 +1,22 @@
+.tecnology-bg {
+  background-color: var(--color-11);
+  box-shadow: inset 0 7.5rem var(--color-0), inset 0 -7.5rem var(--color-0);
+}
+
+.tecnology {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.tecnology-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.tecnology-content {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
